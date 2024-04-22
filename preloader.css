@@ -1,0 +1,14 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+  .preloader {
+    height: 100%;
+    width: 100%;
+    background: #ffffff url('https://i.imgur.com/Q2YU9Bq.gif') no-repeat center center;
+    background-size: contain; /* This ensures the GIF is scaled properly */
+    position: fixed;
+    z-index: 9999;
+    overflow: hidden;
+  }

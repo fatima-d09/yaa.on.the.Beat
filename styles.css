@@ -1,0 +1,212 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+    text-align: center; /* Aligns content to the center */
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 2rem;
+    align-items: center;
+    background: #fff; /* or any color that fits your design */
+  }
+  
+  header nav {
+    margin-right: auto; /* This pushes the nav to the left and the logo to the right */
+    margin-left: auto;  
+  }
+  
+  nav a {
+    position: relative;
+    left: 100px;
+  }
+  
+  header a {
+    text-decoration: none;
+    margin-right: 3rem; /* Adds space between navigation links */
+    color: #333; /* Change this to your preferred text color */
+    font-family: 'Arial', sans-serif; /* Your chosen font family */
+    font-size: 1rem; /* Adjusts the size of the navigation link text */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  header a:hover {
+    color: #EA4C89; /* Change this to the color you want on hover */
+  }
+  
+  header .logo {
+    font-size: 1.25em; /* Adjust the size of the logo as needed */
+    text-decoration: none;
+    color: black; /* or any color that fits your design */
+  }
+  
+  .logo {
+    font-family: 'Your Font Family', sans-serif;
+    font-size: 2em; /* Example font-size */
+  }
+  
+  .hamburger {
+    border: none;
+    background: transparent;
+    font-size: 2em;
+    cursor: pointer;
+  }
+  
+  .tagline {
+    font-size: 3em; /* Adjust size as needed */
+    color: #FFFFFF; /* White color for the text */
+    position: absolute;
+    width: 100%;
+    top: 20%; /* Adjust as needed to place the text above the image */
+    width: 100%;
+    text-align: center;
+    z-index: 2; /* Ensures text is above the background but below the flowers */
+  }
+  
+  
+  .flower {
+    position: absolute;
+    width: 10%; /* Adjust size as needed */
+    height: auto;
+  }
+  
+  .top-left {
+    top: 10px; /* Adjust distance from the top */
+    left: 10px; /* Adjust distance from the left */
+  }
+  
+  .top-right {
+    top: 10px; /* Adjust distance from the top */
+    right: 10px; /* Adjust distance from the right */
+  }
+  
+  .bottom-left {
+    bottom: 10px; /* Adjust distance from the bottom */
+    left: 10px; /* Adjust distance from the left */
+  }
+  
+  .bottom-right {
+    bottom: 10px; /* Adjust distance from the bottom */
+    right: 10px; /* Adjust distance from the right */
+  }
+  
+  .center-piece {
+    z-index: 3; /* Ensures the main image is above the flowers */
+    width: 30%;
+    padding-top: -15px;
+  }
+  
+  .hero {
+    position: relative;
+    height: 100vh; /* Full height of the viewport */
+    background: url('./Home.png') no-repeat center center;
+    background-size: cover; /* Cover the entire viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  
+  
+  footer {
+    position:relative;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+   
+  }
+  
+  .cta-button {
+    background-color: #EA4C89;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    margin-top: 0;
+    font-weight: 500;
+    height: 40px;
+    width: 310px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+
+
+  .cta_button_book_now {
+    background-color: #EA4C89;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    margin-top: 0;
+    font-weight: 500;
+    height: 40px;
+    
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .cta-button:hover,
+  .cta-button:focus {
+    background-color: #F082AC;
+    color: white;
+  }
+  
+  .ig { margin-bottom: 3px;}
+  .logo {
+    text-decoration: none;
+    color: black;
+    font-size: 28px;;
+  }
+  
+  .yaa-text {
+      width: 70%;
+      height: auto;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif; /* Replace with your font */
+      font-weight: bold;
+      text-align: center;
+      font-size: 3em; /* Adjust as needed */
+      fill: #FFFFFF; /* Adjust color as needed */
+      text-anchor: middle; /* Centers the text on the path */
+      color: #F9E7E5;
+  }
+  
+  
